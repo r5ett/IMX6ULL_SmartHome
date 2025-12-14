@@ -1,0 +1,1 @@
+cmd_/home/book/MyCode/SmartHome/05_sr04/sr04drv.ko := arm-buildroot-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/book/MyCode/SmartHome/05_sr04/sr04drv.ko /home/book/MyCode/SmartHome/05_sr04/sr04drv.o /home/book/MyCode/SmartHome/05_sr04/sr04drv.mod.o ;  true

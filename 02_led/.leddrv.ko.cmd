@@ -1,0 +1,1 @@
+cmd_/home/book/MyCode/SmartHome/02_led/leddrv.ko := arm-buildroot-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/book/MyCode/SmartHome/02_led/leddrv.ko /home/book/MyCode/SmartHome/02_led/leddrv.o /home/book/MyCode/SmartHome/02_led/leddrv.mod.o ;  true

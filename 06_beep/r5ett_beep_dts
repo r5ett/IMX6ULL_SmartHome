@@ -1,0 +1,5 @@
+r5ett_beep {
+    status = "okay";
+    compatible = "my,beep";
+    gpios = <&gpio4 22 GPIO_ACTIVE_HIGH>;
+};

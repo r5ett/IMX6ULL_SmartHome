@@ -1,0 +1,1 @@
+cmd_/home/book/MyCode/SmartHome/03.dht11/dht11drv.ko := arm-buildroot-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/book/MyCode/SmartHome/03.dht11/dht11drv.ko /home/book/MyCode/SmartHome/03.dht11/dht11drv.o /home/book/MyCode/SmartHome/03.dht11/dht11drv.mod.o ;  true

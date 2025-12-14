@@ -1,0 +1,6 @@
+r5ett_sr04 {
+    status = "okay";
+    compatible = "r5ett,sr04";
+    trig-gpios = <&gpio4 20 GPIO_ACTIVE_HIGH>;
+    echo-gpios = <&gpio4 21 GPIO_ACTIVE_HIGH>;
+};

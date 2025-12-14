@@ -1,0 +1,1 @@
+cmd_/home/book/MyCode/SmartHome/06_beep/beepdrv.ko := arm-buildroot-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/book/MyCode/SmartHome/06_beep/beepdrv.ko /home/book/MyCode/SmartHome/06_beep/beepdrv.o /home/book/MyCode/SmartHome/06_beep/beepdrv.mod.o ;  true

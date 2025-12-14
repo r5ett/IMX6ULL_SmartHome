@@ -1,0 +1,5 @@
+r5ett_dht11 {
+    status = "okay";
+    compatible = "r5ett,dht11";
+    gpios = <&gpio4 19 GPIO_ACTIVE_HIGH>;
+};

@@ -1,0 +1,12 @@
+/ {
+    r5ett_led {
+        compatible = "r5ett,leddrv";
+        status = "okay";
+        reg = < 0x020C406C  0x04    /* CCM_CCGR1 */
+                0x02290014  0x04    /* IOMUXC_SNVS_SW_MUX_CTL_PAD_SNVS_TAMPER3 */
+                0x02290058  0x04    /* IOMUXC_SNVS_SW_PAD_CTL_PAD_SNVS_TAMPER3 （pad属性） */
+                0x020AC000  0x04    /* GPIO5_DR */    
+                0x020AC004  0x04    /* GPIO5_GDIR */ 
+        >;
+    };
+};

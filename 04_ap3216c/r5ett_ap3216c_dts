@@ -1,0 +1,4 @@
+r5ett_ap3216c@1e {
+    compatible = "r5ett,ap3216c";
+    reg = <0x1e>;
+};
